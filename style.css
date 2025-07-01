@@ -1,97 +1,117 @@
-/* === GLOBAL STYLES === */
+/* === GLOBAL === */
 body {
-  font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  background: #f4f4f4;
-  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafc;
+  color: #2c3e50;
+  line-height: 1.6;
 }
 
+/* === HEADER === */
 header {
-  background: #1e1e1e;
+  background: linear-gradient(to right, #0f2027, hsl(195, 35%, 19%), #2c5364);
   color: white;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
+  position: relative;
 }
 
-header img {
-  width: 120px;
-  height: 120px;
+.gif-container img {
+  max-width: 320px;
+  height: auto;
   border-radius: 50%;
-  object-fit: cover;
   border: 3px solid #fff;
   margin-bottom: 1rem;
 }
 
+/* === MAIN CONTENT === */
 main {
-  max-width: 800px;
-  margin: auto;
-  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+h1 {
+  color: #007acc;
 }
 
 h2 {
-  color: #007acc;
-  margin-top: 2rem;
+  color: #34495e;
+  margin-bottom: 0.5rem;
 }
 
+h2 {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+  margin-top: 3rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  background: #ffffff;
+  margin: 1rem 0;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid #007acc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  border-radius: 4px;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === TAGS === */
 .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: 0.5rem;
-}
-
-.tags span {
-  background: #007acc;
-  color: white;
-  padding: 0.4rem 0.7rem;
-  border-radius: 20px;
-  font-size: 0.9rem;
-}
-
-.card {
-  background: white;
-  padding: 1rem 1.5rem;
-  border-left: 4px solid #007acc;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  border-radius: 6px;
   margin-top: 1rem;
 }
 
-.card a {
-  color: #007acc;
-  text-decoration: none;
+.tags span {
+  background-color: #007acc;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* === CONTACT === */
+.contact a {
   font-weight: bold;
 }
 
-.card a:hover {
-  text-decoration: underline;
-}
-
-.contact a {
-  color: #007acc;
-  text-decoration: none;
-}
-
+/* === FOOTER === */
 footer {
-  text-align: center;
-  padding: 1rem;
   background: #f0f0f0;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
   font-size: 0.9rem;
-  margin-top: 3rem;
   color: #666;
 }
 
+/* === RESPONSIVE === */
 @media (max-width: 600px) {
+  main {
+    padding: 0 1rem;
+  }
+
+  .gif-container img {
+    max-width: 90px;
+  }
+
   .tags {
     justify-content: center;
-  }
-
-  header img {
-    width: 90px;
-    height: 90px;
-  }
-
-  main {
-    padding: 1.2rem;
   }
 }
