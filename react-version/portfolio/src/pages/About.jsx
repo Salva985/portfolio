@@ -1,6 +1,6 @@
 export default function About() {
     return (
-      <section className="min-h-screen flex flex-col justify-center items-center px-6 py-12 text-center">
+      <section className="min-h-screen flex flex-col justify-center items-center px-6 py-12 text-center -mt-40">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">👨‍💻 About Me</h2>
   
         <div className="max-w-2xl text-lg text-gray-700 dark:text-gray-300 space-y-4">
