@@ -1,7 +1,7 @@
 export default function Home() {
     return (
       <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 py-16">
-        <div className="w-150 h-100 mb-10 -mt-50">
+        <div className="w-150 h-100 mb-10 -mt-20">
           <img
             src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGdrbGp5MHZ1Nzd4NXEycjdqNzQ3dTd4MXJubHZ6cmJjcTZvMDIxZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qgQUggAC3Pfv687qPC/giphy.gif"
             alt="Coding GIF"

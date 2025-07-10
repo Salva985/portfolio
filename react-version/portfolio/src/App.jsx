@@ -30,6 +30,7 @@ function PageWrapper({ children }) {
 }
 
 export default function App() {
+  
   const [darkMode, setDarkMode] = useState(false);
   const location = useLocation();
 
@@ -45,6 +46,8 @@ export default function App() {
         darkMode={darkMode}
         toggleDarkMode={() => setDarkMode((prev) => !prev)}
       />
+
+
 
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.pathname}>
