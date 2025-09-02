@@ -14,8 +14,8 @@ export default function Home() {
         </h1>
   
         <p className="text-lg text-gray-700 dark:text-gray-300 max-w-xl">
-          💻 Junior Full-Stack Web Developer (MERN) | Passionate about UX, SEO & clean digital experiences <br />
-          📍 Based in Barcelona | Open to collaboration
+        🌐 Junior Full-Stack Web Developer< br/> Passion for UX, SEO & turning ideas into reality
+        📍 Barcelona < br/> Let’s build something amazing together 🚀
         </p>
       </section>
     )
