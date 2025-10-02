@@ -10,7 +10,7 @@ export default function Contact() {
           Email: <a href="mailto:smarchese985@gmail.com" className="text-blue-600 dark:text-blue-400 underline">smarchese985@gmail.com</a>
         </p>
         <p>
-          LinkedIn: <a href="https://linkedin.com/in/salvatore-marchese-5736b786/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">salvatore-marchese</a>
+          LinkedIn: <a href="linkedin.com/in/salvatore-marchese-dev" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">salvatore-marchese</a>
         </p>
         <p>
           GitHub: <a href="https://github.com/Salva985" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">Salva985</a>
